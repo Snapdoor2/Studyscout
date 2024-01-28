@@ -1,0 +1,25 @@
+---------------------------NAME & MTKRL NUMMER--------------------------------
+
+Lukas Böttner 35200
+Jakob Wagner 35700
+Marc Eisler 35233
+
+-------------------------LINK ZUR CLOUDANWENDUNG------------------------------
+
+
+
+
+-------------------------------HILFSMITTEL------------------------------------
+
+Chat GPT	(Alle Code-Elemente mit Kommentaren gekennzeichnet)
+Stackoverflow
+Vue-Dokumentation
+Vuetify-Dokumentation
+
+
+
+-------------------------ANWENDUNG LOKAL STARTEN------------------------------
+1. npm install
+2. npm install vuetify
+3. npm i
+4. npm run dev
