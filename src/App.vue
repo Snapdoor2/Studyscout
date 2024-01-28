@@ -101,8 +101,10 @@ export default {
       this.filteredResponseData = 'loading';
       // Axios GET request, url searches by input field
       let apiUrl = `https://rest.arbeitsagentur.de/infosysbub/studisu/pc/v1/studienangebote?sw=${inputValueName}&pg=${this.index}`;
+      const proxyUrl = '/.netlify/functions/proxy?url=' + encodeURIComponent(apiUrl);
+      console.log(proxyUrl);
       axios
-        .get(apiUrl, {
+        .get(proxyUrl, {
           headers: {
             'X-API-Key': this.clientId //API Key 
           }
